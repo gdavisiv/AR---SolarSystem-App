@@ -60,7 +60,9 @@ struct Home : View {
                         }, label: {
                             Image(systemName: "chevron.left")
                                 .font(.system(size: 35, weight: .bold))
+                                .opacity(index == 0 ? 0.3 : 1)
                         })
+                        .disabled(index == 0 ? true : false)
                         
                         Spacer(minLength: 0)
                         
@@ -74,7 +76,7 @@ struct Home : View {
                             Image(systemName: "chevron.right")
                                 .font(.system(size: 35, weight: .bold))
                                 //Disable Button when no other data exist
-                                .opacity(index == 0 ? 0.3 : 1)
+                                .opacity(index == models.count - 1 ? 0.3 : 1)
                         })
                         .disabled(index == models.count - 1 ? true : false)
                     }
