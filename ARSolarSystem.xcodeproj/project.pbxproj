@@ -13,6 +13,13 @@
 		E281E84C24D756A900B7F2A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E281E84B24D756A900B7F2A6 /* Preview Assets.xcassets */; };
 		E281E85724D756A900B7F2A6 /* ARSolarSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E85624D756A900B7F2A6 /* ARSolarSystemTests.swift */; };
 		E281E86224D756A900B7F2A6 /* ARSolarSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E86124D756A900B7F2A6 /* ARSolarSystemUITests.swift */; };
+		E281E87624D7589800B7F2A6 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E86F24D7589700B7F2A6 /* Jupiter.usdz */; };
+		E281E87724D7589800B7F2A6 /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87024D7589700B7F2A6 /* Moon.usdz */; };
+		E281E87824D7589800B7F2A6 /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87124D7589800B7F2A6 /* Saturn.usdz */; };
+		E281E87924D7589800B7F2A6 /* Asteroid.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87224D7589800B7F2A6 /* Asteroid.usdz */; };
+		E281E87A24D7589800B7F2A6 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87324D7589800B7F2A6 /* Neptune.usdz */; };
+		E281E87B24D7589800B7F2A6 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87424D7589800B7F2A6 /* Earth.usdz */; };
+		E281E87C24D7589800B7F2A6 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87524D7589800B7F2A6 /* Sun.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		E281E85D24D756A900B7F2A6 /* ARSolarSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSolarSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E281E86124D756A900B7F2A6 /* ARSolarSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSystemUITests.swift; sourceTree = "<group>"; };
 		E281E86324D756A900B7F2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E281E86F24D7589700B7F2A6 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		E281E87024D7589700B7F2A6 /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		E281E87124D7589800B7F2A6 /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		E281E87224D7589800B7F2A6 /* Asteroid.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Asteroid.usdz; sourceTree = "<group>"; };
+		E281E87324D7589800B7F2A6 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		E281E87424D7589800B7F2A6 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		E281E87524D7589800B7F2A6 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,7 @@
 		E281E84324D756A800B7F2A6 /* ARSolarSystem */ = {
 			isa = PBXGroup;
 			children = (
+				E281E87D24D7589C00B7F2A6 /* Objects */,
 				E281E84424D756A800B7F2A6 /* ARSolarSystemApp.swift */,
 				E281E84624D756A800B7F2A6 /* ContentView.swift */,
 				E281E84824D756A900B7F2A6 /* Assets.xcassets */,
@@ -128,6 +143,20 @@
 				E281E86324D756A900B7F2A6 /* Info.plist */,
 			);
 			path = ARSolarSystemUITests;
+			sourceTree = "<group>";
+		};
+		E281E87D24D7589C00B7F2A6 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E281E87224D7589800B7F2A6 /* Asteroid.usdz */,
+				E281E87424D7589800B7F2A6 /* Earth.usdz */,
+				E281E86F24D7589700B7F2A6 /* Jupiter.usdz */,
+				E281E87024D7589700B7F2A6 /* Moon.usdz */,
+				E281E87324D7589800B7F2A6 /* Neptune.usdz */,
+				E281E87124D7589800B7F2A6 /* Saturn.usdz */,
+				E281E87524D7589800B7F2A6 /* Sun.usdz */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E281E87624D7589800B7F2A6 /* Jupiter.usdz in Resources */,
+				E281E87724D7589800B7F2A6 /* Moon.usdz in Resources */,
+				E281E87824D7589800B7F2A6 /* Saturn.usdz in Resources */,
+				E281E87924D7589800B7F2A6 /* Asteroid.usdz in Resources */,
+				E281E87A24D7589800B7F2A6 /* Neptune.usdz in Resources */,
+				E281E87B24D7589800B7F2A6 /* Earth.usdz in Resources */,
+				E281E87C24D7589800B7F2A6 /* Sun.usdz in Resources */,
 				E281E84C24D756A900B7F2A6 /* Preview Assets.xcassets in Resources */,
 				E281E84924D756A900B7F2A6 /* Assets.xcassets in Resources */,
 			);
