@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E281E84524D756A800B7F2A6 /* ARSolarSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E84424D756A800B7F2A6 /* ARSolarSystemApp.swift */; };
+		E281E84724D756A800B7F2A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E84624D756A800B7F2A6 /* ContentView.swift */; };
+		E281E84924D756A900B7F2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E281E84824D756A900B7F2A6 /* Assets.xcassets */; };
+		E281E84C24D756A900B7F2A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E281E84B24D756A900B7F2A6 /* Preview Assets.xcassets */; };
+		E281E85724D756A900B7F2A6 /* ARSolarSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E85624D756A900B7F2A6 /* ARSolarSystemTests.swift */; };
+		E281E86224D756A900B7F2A6 /* ARSolarSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E86124D756A900B7F2A6 /* ARSolarSystemUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E281E85324D756A900B7F2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E281E83924D756A800B7F2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E281E84024D756A800B7F2A6;
+			remoteInfo = ARSolarSystem;
+		};
+		E281E85E24D756A900B7F2A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E281E83924D756A800B7F2A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E281E84024D756A800B7F2A6;
+			remoteInfo = ARSolarSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E281E84124D756A800B7F2A6 /* ARSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E281E84424D756A800B7F2A6 /* ARSolarSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSystemApp.swift; sourceTree = "<group>"; };
+		E281E84624D756A800B7F2A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E281E84824D756A900B7F2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E281E84B24D756A900B7F2A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E281E84D24D756A900B7F2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E281E85224D756A900B7F2A6 /* ARSolarSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSolarSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E281E85624D756A900B7F2A6 /* ARSolarSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSystemTests.swift; sourceTree = "<group>"; };
+		E281E85824D756A900B7F2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E281E85D24D756A900B7F2A6 /* ARSolarSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSolarSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E281E86124D756A900B7F2A6 /* ARSolarSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSystemUITests.swift; sourceTree = "<group>"; };
+		E281E86324D756A900B7F2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E281E83E24D756A800B7F2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281E84F24D756A900B7F2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281E85A24D756A900B7F2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E281E83824D756A800B7F2A6 = {
+			isa = PBXGroup;
+			children = (
+				E281E84324D756A800B7F2A6 /* ARSolarSystem */,
+				E281E85524D756A900B7F2A6 /* ARSolarSystemTests */,
+				E281E86024D756A900B7F2A6 /* ARSolarSystemUITests */,
+				E281E84224D756A800B7F2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E281E84224D756A800B7F2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E281E84124D756A800B7F2A6 /* ARSolarSystem.app */,
+				E281E85224D756A900B7F2A6 /* ARSolarSystemTests.xctest */,
+				E281E85D24D756A900B7F2A6 /* ARSolarSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E281E84324D756A800B7F2A6 /* ARSolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E281E84424D756A800B7F2A6 /* ARSolarSystemApp.swift */,
+				E281E84624D756A800B7F2A6 /* ContentView.swift */,
+				E281E84824D756A900B7F2A6 /* Assets.xcassets */,
+				E281E84D24D756A900B7F2A6 /* Info.plist */,
+				E281E84A24D756A900B7F2A6 /* Preview Content */,
+			);
+			path = ARSolarSystem;
+			sourceTree = "<group>";
+		};
+		E281E84A24D756A900B7F2A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E281E84B24D756A900B7F2A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E281E85524D756A900B7F2A6 /* ARSolarSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				E281E85624D756A900B7F2A6 /* ARSolarSystemTests.swift */,
+				E281E85824D756A900B7F2A6 /* Info.plist */,
+			);
+			path = ARSolarSystemTests;
+			sourceTree = "<group>";
+		};
+		E281E86024D756A900B7F2A6 /* ARSolarSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E281E86124D756A900B7F2A6 /* ARSolarSystemUITests.swift */,
+				E281E86324D756A900B7F2A6 /* Info.plist */,
+			);
+			path = ARSolarSystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E281E84024D756A800B7F2A6 /* ARSolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E281E86624D756A900B7F2A6 /* Build configuration list for PBXNativeTarget "ARSolarSystem" */;
+			buildPhases = (
+				E281E83D24D756A800B7F2A6 /* Sources */,
+				E281E83E24D756A800B7F2A6 /* Frameworks */,
+				E281E83F24D756A800B7F2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARSolarSystem;
+			productName = ARSolarSystem;
+			productReference = E281E84124D756A800B7F2A6 /* ARSolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E281E85124D756A900B7F2A6 /* ARSolarSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E281E86924D756A900B7F2A6 /* Build configuration list for PBXNativeTarget "ARSolarSystemTests" */;
+			buildPhases = (
+				E281E84E24D756A900B7F2A6 /* Sources */,
+				E281E84F24D756A900B7F2A6 /* Frameworks */,
+				E281E85024D756A900B7F2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E281E85424D756A900B7F2A6 /* PBXTargetDependency */,
+			);
+			name = ARSolarSystemTests;
+			productName = ARSolarSystemTests;
+			productReference = E281E85224D756A900B7F2A6 /* ARSolarSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E281E85C24D756A900B7F2A6 /* ARSolarSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E281E86C24D756A900B7F2A6 /* Build configuration list for PBXNativeTarget "ARSolarSystemUITests" */;
+			buildPhases = (
+				E281E85924D756A900B7F2A6 /* Sources */,
+				E281E85A24D756A900B7F2A6 /* Frameworks */,
+				E281E85B24D756A900B7F2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E281E85F24D756A900B7F2A6 /* PBXTargetDependency */,
+			);
+			name = ARSolarSystemUITests;
+			productName = ARSolarSystemUITests;
+			productReference = E281E85D24D756A900B7F2A6 /* ARSolarSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E281E83924D756A800B7F2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E281E84024D756A800B7F2A6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E281E85124D756A900B7F2A6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E281E84024D756A800B7F2A6;
+					};
+					E281E85C24D756A900B7F2A6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E281E84024D756A800B7F2A6;
+					};
+				};
+			};
+			buildConfigurationList = E281E83C24D756A800B7F2A6 /* Build configuration list for PBXProject "ARSolarSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E281E83824D756A800B7F2A6;
+			productRefGroup = E281E84224D756A800B7F2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E281E84024D756A800B7F2A6 /* ARSolarSystem */,
+				E281E85124D756A900B7F2A6 /* ARSolarSystemTests */,
+				E281E85C24D756A900B7F2A6 /* ARSolarSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E281E83F24D756A800B7F2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E281E84C24D756A900B7F2A6 /* Preview Assets.xcassets in Resources */,
+				E281E84924D756A900B7F2A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281E85024D756A900B7F2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281E85B24D756A900B7F2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E281E83D24D756A800B7F2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E281E84724D756A800B7F2A6 /* ContentView.swift in Sources */,
+				E281E84524D756A800B7F2A6 /* ARSolarSystemApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281E84E24D756A900B7F2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E281E85724D756A900B7F2A6 /* ARSolarSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E281E85924D756A900B7F2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E281E86224D756A900B7F2A6 /* ARSolarSystemUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E281E85424D756A900B7F2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E281E84024D756A800B7F2A6 /* ARSolarSystem */;
+			targetProxy = E281E85324D756A900B7F2A6 /* PBXContainerItemProxy */;
+		};
+		E281E85F24D756A900B7F2A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E281E84024D756A800B7F2A6 /* ARSolarSystem */;
+			targetProxy = E281E85E24D756A900B7F2A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E281E86424D756A900B7F2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E281E86524D756A900B7F2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E281E86724D756A900B7F2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ARSolarSystem/Preview Content\"";
+				DEVELOPMENT_TEAM = ZY82K3XX7G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ARSolarSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dmations.ARSolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E281E86824D756A900B7F2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ARSolarSystem/Preview Content\"";
+				DEVELOPMENT_TEAM = ZY82K3XX7G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ARSolarSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dmations.ARSolarSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E281E86A24D756A900B7F2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY82K3XX7G;
+				INFOPLIST_FILE = ARSolarSystemTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dmations.ARSolarSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSolarSystem.app/ARSolarSystem";
+			};
+			name = Debug;
+		};
+		E281E86B24D756A900B7F2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY82K3XX7G;
+				INFOPLIST_FILE = ARSolarSystemTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dmations.ARSolarSystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSolarSystem.app/ARSolarSystem";
+			};
+			name = Release;
+		};
+		E281E86D24D756A900B7F2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY82K3XX7G;
+				INFOPLIST_FILE = ARSolarSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dmations.ARSolarSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSolarSystem;
+			};
+			name = Debug;
+		};
+		E281E86E24D756A900B7F2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY82K3XX7G;
+				INFOPLIST_FILE = ARSolarSystemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3dmations.ARSolarSystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARSolarSystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E281E83C24D756A800B7F2A6 /* Build configuration list for PBXProject "ARSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E281E86424D756A900B7F2A6 /* Debug */,
+				E281E86524D756A900B7F2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E281E86624D756A900B7F2A6 /* Build configuration list for PBXNativeTarget "ARSolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E281E86724D756A900B7F2A6 /* Debug */,
+				E281E86824D756A900B7F2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E281E86924D756A900B7F2A6 /* Build configuration list for PBXNativeTarget "ARSolarSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E281E86A24D756A900B7F2A6 /* Debug */,
+				E281E86B24D756A900B7F2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E281E86C24D756A900B7F2A6 /* Build configuration list for PBXNativeTarget "ARSolarSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E281E86D24D756A900B7F2A6 /* Debug */,
+				E281E86E24D756A900B7F2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E281E83924D756A800B7F2A6 /* Project object */;
+}
