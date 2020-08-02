@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E24BEB6F24D7661900885A5B /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E24BEB6E24D7661900885A5B /* Earth.usdz */; };
 		E281E84524D756A800B7F2A6 /* ARSolarSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E84424D756A800B7F2A6 /* ARSolarSystemApp.swift */; };
 		E281E84724D756A800B7F2A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E281E84624D756A800B7F2A6 /* ContentView.swift */; };
 		E281E84924D756A900B7F2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E281E84824D756A900B7F2A6 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		E281E87824D7589800B7F2A6 /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87124D7589800B7F2A6 /* Saturn.usdz */; };
 		E281E87924D7589800B7F2A6 /* Asteroid.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87224D7589800B7F2A6 /* Asteroid.usdz */; };
 		E281E87A24D7589800B7F2A6 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87324D7589800B7F2A6 /* Neptune.usdz */; };
-		E281E87B24D7589800B7F2A6 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87424D7589800B7F2A6 /* Earth.usdz */; };
 		E281E87C24D7589800B7F2A6 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E281E87524D7589800B7F2A6 /* Sun.usdz */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E24BEB6E24D7661900885A5B /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Earth.usdz; path = ../../Earth.usdz; sourceTree = "<group>"; };
 		E281E84124D756A800B7F2A6 /* ARSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E281E84424D756A800B7F2A6 /* ARSolarSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSystemApp.swift; sourceTree = "<group>"; };
 		E281E84624D756A800B7F2A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		E281E87124D7589800B7F2A6 /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
 		E281E87224D7589800B7F2A6 /* Asteroid.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Asteroid.usdz; sourceTree = "<group>"; };
 		E281E87324D7589800B7F2A6 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
-		E281E87424D7589800B7F2A6 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
 		E281E87524D7589800B7F2A6 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,8 +148,8 @@
 		E281E87D24D7589C00B7F2A6 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				E24BEB6E24D7661900885A5B /* Earth.usdz */,
 				E281E87224D7589800B7F2A6 /* Asteroid.usdz */,
-				E281E87424D7589800B7F2A6 /* Earth.usdz */,
 				E281E86F24D7589700B7F2A6 /* Jupiter.usdz */,
 				E281E87024D7589700B7F2A6 /* Moon.usdz */,
 				E281E87324D7589800B7F2A6 /* Neptune.usdz */,
@@ -262,12 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24BEB6F24D7661900885A5B /* Earth.usdz in Resources */,
 				E281E87624D7589800B7F2A6 /* Jupiter.usdz in Resources */,
 				E281E87724D7589800B7F2A6 /* Moon.usdz in Resources */,
 				E281E87824D7589800B7F2A6 /* Saturn.usdz in Resources */,
 				E281E87924D7589800B7F2A6 /* Asteroid.usdz in Resources */,
 				E281E87A24D7589800B7F2A6 /* Neptune.usdz in Resources */,
-				E281E87B24D7589800B7F2A6 /* Earth.usdz in Resources */,
 				E281E87C24D7589800B7F2A6 /* Sun.usdz in Resources */,
 				E281E84C24D756A900B7F2A6 /* Preview Assets.xcassets in Resources */,
 				E281E84924D756A900B7F2A6 /* Assets.xcassets in Resources */,
